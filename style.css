@@ -10,7 +10,7 @@ body,
 }
 .header {
   font-size: 35px;
-  margin: 25px auto;
+  margin: 20px auto;
   width: 30%;
   border: 3px solid #9dbae9;
   padding: 10px;
@@ -43,6 +43,7 @@ body,
 .gallery-img {
   border-radius: 25px;
   height: 280px;
+  margin: 5px auto;
 }
 
 .gallery-header {
