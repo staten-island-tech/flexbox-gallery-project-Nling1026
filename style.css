@@ -92,3 +92,23 @@ body,
     transform: translateX(0);
   }
 }
+@media (max-width: 600px) {
+  body {
+    background-color: aliceblue;
+  }
+}
+/* query for mobile*/
+
+@media (max-width: 700px) {
+  body {
+    background-color: rgb(255, 188, 210);
+  }
+}
+/* query for ipad*/
+
+@media (max-width: 1200px) {
+  .gallery {
+    background-color: rgb(255, 224, 229);
+  }
+}
+/* query for laptop*/
