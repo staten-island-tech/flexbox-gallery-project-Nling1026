@@ -46,7 +46,11 @@ body,
 .gallery-card:hover {
   transform: scale(1.05);
 }
-
+.pink-tulip:hover {
+  opacity: 60%;
+}
+.bluet {
+}
 .gallery-img {
   object-fit: cover;
   width: 58%;
@@ -93,14 +97,14 @@ body,
   }
 }
 @media (max-width: 600px) {
-  body {
+  .gallery {
     background-color: aliceblue;
   }
 }
 /* query for mobile*/
 
 @media (max-width: 700px) {
-  body {
+  .gallery {
     background-color: rgb(255, 188, 210);
   }
 }
@@ -112,3 +116,6 @@ body,
   }
 }
 /* query for laptop*/
+@media screen {
+  max-width: 700px;
+}
