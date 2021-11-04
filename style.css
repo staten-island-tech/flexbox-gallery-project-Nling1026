@@ -43,13 +43,22 @@ body,
   transition: all 0.15s;
   animation: 0.6s ease-out 0s 1 slideInFromLeft;
 }
-.gallery-card:hover {
-  transform: scale(1.05);
-}
+
 .pink-tulip:hover {
   opacity: 60%;
+  transform: scale(1.05);
 }
-.bluet {
+.bluet:hover {
+  transform: translateX(30px);
+}
+.poppy:hover {
+  transform: translateX(3px) rotate(5deg);
+}
+.orange-tulip:hover {
+  transform: scale(0.5);
+}
+.dandelion:hover {
+  transform: skewX(12deg) scale(1.01);
 }
 .gallery-img {
   object-fit: cover;
